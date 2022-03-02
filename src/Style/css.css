@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 7, 2022, 10:42:58 PM
+    Author     : Ezwad_Ze
+*/
+.root{
+    -fx-background-image: url('../Image/img_1.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position:center;
+    -fx-background-size: cover;
+    -fx-opacity: 1;  
+}
+.left-pane{
+    -fx-background-color: rgb(60,108,36);
+}
+.button{
+    -fx-font-family:"Georgia", serif; 
+    -fx-font-size:16; 
+    -fx-font-color: white; 
+    -fx-color:rgb(32, 57, 19);
+}
+.button:hover{
+    -fx-color:brown;
+}
+.button:pressed{
+    -fx-color:yellowgreen;
+}
+.label{
+    -fx-font-family:"Georgia", serif; 
+    -fx-font-size:19; 
+    -fx-background-color: rgb(60,108,36);
+    -fx-text-fill: #fff;
+    -fx-font-weight:bold;
+}
+#new-label-1{
+    -fx-font-size:36;   
+}
+#new-label-2{
+    -fx-font-size:30; 
+}
+#no-label-style{
+   -fx-all: unset;
+}
+.table-view .label
+{
+/*    -fx-alignment: baseline-left;
+    -fx-font-style: normal;*/
+    -fx-background-color: transparent;
+   -fx-text-fill:rgb(60,108,36);
+   -fx-font-size: 15;
+}
+/*.table-view .table-cell .label{
+    -fx-text-fill: black;
+}*/
+
+.combo-box{
+    -fx-background-color:rgb(57, 255, 20);
+    /*-fx-text-fill: white;*/
+    /*-fx-font-color: white;*/
+    -fx-prompt-text-fill: white;
+}
+
+
+
+
+.text-field{
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-width: 3px;
+    /*-fx-pref-column-count: 15;*/
+     -fx-border-color: rgb(60,108,36);
+}
+.text-area{
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-width: 3px;
+    /*-fx-pref-column-count: 15;*/
+    -fx-border-color: rgb(60,108,36);
+}

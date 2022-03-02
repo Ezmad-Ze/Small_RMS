@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Small_RMS.jnlp">
+  <information>
+    <title>Small_RMS</title>
+    <vendor>Ezwad_Ze</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Small_RMS.jar" size="93638" download="eager" />
+    <jar href="lib\mysql-connector-java-5.0.4-bin.jar" size="495944" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Small_RMS" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="rms.Main"  name="Small_RMS" />
+  <update check="always"/>
+</jnlp>
